@@ -4,45 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .num-check{
-            margin: 0 auto;
-        }
-        input{
-            width: 60%;
-            padding: .5rem;
-            font-size: 1rem;
-            text-align: center;
-            border-radius: .5rem;
-            border: 1px solid gray;
-        }
-        button{
-            padding: .5rem 1rem;
-            font-size: 1rem;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 1rem;
-            border: none;
-            cursor: pointer;
-        }
-        #evenOdd-output{
-            margin: 0 auto;
-            width: 60%;
-            padding: .5rem;
-            font-size: 3rem;
-            font-weight: 700;
-            text-align: center;
-            color: #333;
-            margin-top: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="num-check">
+    <div class="main-container">
         <input id="input" type="text" placeholder="Type Your Number">
-        <button id="evenOdd-btn">Even/ODD</button>  
+        <div>
+            <button id="grade-btn">Grade Check</button>  
+            <button id="evenOdd-btn">Even/ODD Check</button>  
+            <button id="leaf-year-btn">Leaf Year Check</button>
+            <button id="divided-btn">Divided Number 3&5</button>
+            <button id="biggest-btn">Biggest Friend</button>
+        </div> 
     </div>
-    <div id="evenOdd-output">
+    <div id="output">
 
     </div>
 
