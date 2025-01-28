@@ -10,16 +10,25 @@
     justify-content: center;
     align-items: center;
 }
+.number-input{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:normal
+}
 input{
-    width: 60%;
     padding: .5rem;
     font-size: 1rem;
+    width: 60%;
     text-align: center;
     border-radius: .5rem;
     border: 1px solid gray;
+    margin-right: .5rem;
 }
 button{
     padding: .5rem 1rem;
+    display: inline;
     font-size: 1rem;
     background-color: #4CAF50;
     color: white;
@@ -43,4 +52,10 @@ h1{
 }
 span{
     color: rgba(255, 0, 0, 0.841);
+}
+#reset{
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: #290992;
+    margin-bottom: .5rem;
 }

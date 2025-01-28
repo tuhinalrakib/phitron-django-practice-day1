@@ -1,6 +1,12 @@
 const input = document.getElementById("input")
 const output = document.getElementById("output")
 
+const reset = document.getElementById("reset")
+reset.addEventListener("click",(e)=>{
+    input.value = ""
+    output.innerHTML = ""
+})
+
 // Grade Making 
 const grade = document.getElementById("grade-btn")
 
